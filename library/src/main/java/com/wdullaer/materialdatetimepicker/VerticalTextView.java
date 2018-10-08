@@ -2,10 +2,11 @@ package com.wdullaer.materialdatetimepicker;
 
 import android.content.Context;
 import android.graphics.Canvas;
-import android.support.v7.widget.AppCompatTextView;
 import android.text.TextPaint;
 import android.util.AttributeSet;
 import android.view.Gravity;
+
+import androidx.appcompat.widget.AppCompatTextView;
 
 /**
  * TextView that renders it's contents vertically. (Just using rotate doesn't work because onMeasure

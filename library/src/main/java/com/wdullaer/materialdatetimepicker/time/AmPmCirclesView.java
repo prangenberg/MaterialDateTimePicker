@@ -20,9 +20,8 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.graphics.Canvas;
 import android.graphics.Paint;
-import android.graphics.Typeface;
 import android.graphics.Paint.Align;
-import android.support.v4.content.ContextCompat;
+import android.graphics.Typeface;
 import android.util.Log;
 import android.view.View;
 
@@ -31,6 +30,8 @@ import com.wdullaer.materialdatetimepicker.Utils;
 
 import java.text.DateFormatSymbols;
 import java.util.Locale;
+
+import androidx.core.content.ContextCompat;
 
 /**
  * Draw the two smaller AM and PM circles next to where the larger circle will be.

@@ -17,9 +17,10 @@
 package com.wdullaer.materialdatetimepicker.date;
 
 import android.os.Parcelable;
-import android.support.annotation.NonNull;
 
 import java.util.Calendar;
+
+import androidx.annotation.NonNull;
 
 @SuppressWarnings("WeakerAccess")
 public interface DateRangeLimiter extends Parcelable {

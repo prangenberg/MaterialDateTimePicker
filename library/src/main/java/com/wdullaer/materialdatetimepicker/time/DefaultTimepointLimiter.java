@@ -2,11 +2,12 @@ package com.wdullaer.materialdatetimepicker.time;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 
 import java.util.Arrays;
 import java.util.TreeSet;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 import static com.wdullaer.materialdatetimepicker.time.TimePickerDialog.HOUR_INDEX;
 import static com.wdullaer.materialdatetimepicker.time.TimePickerDialog.MINUTE_INDEX;

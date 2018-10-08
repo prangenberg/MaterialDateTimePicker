@@ -17,8 +17,6 @@
 package com.wdullaer.materialdatetimepicker.date;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.RecyclerView;
 import android.view.ViewGroup;
 import android.widget.AbsListView.LayoutParams;
 
@@ -27,6 +25,9 @@ import com.wdullaer.materialdatetimepicker.date.MonthView.OnDayClickListener;
 
 import java.util.Calendar;
 import java.util.TimeZone;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * An adapter for a list of {@link MonthView} items.
